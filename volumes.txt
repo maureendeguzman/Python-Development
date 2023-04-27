@@ -1,0 +1,40 @@
+Width: 185.0
+Aspect Ratio: 50.0
+Diameter: 14.0
+Volume: 24.000204854910713
+Width: 185.0
+Aspect Ratio: 50.0
+Diameter: 14.0
+Volume: 188161.60606249998
+Width: 185.0
+Aspect Ratio: 50.0
+Diameter: 14.0
+Volume: 24.000204854910713
+Width: 185.0
+Aspect Ratio: 50.0
+Diameter: 14.0
+Volume: 24.000204854910713
+Width: 185.0
+Aspect Ratio: 50.0
+Diameter: 14.0
+Volume: 24.000204854910713
+Width: 185.0
+Aspect Ratio: 50.0
+Diameter: 14.0
+Volume: 24.000204854910713
+Width: 205.0
+Aspect Ratio: 60.0
+Diameter: 15.0
+Volume: 45.46790348533163
+Width: 205.0
+Aspect Ratio: 60.0
+Diameter: 15.0
+Volume: 45.46790348533163
+Width: 600.0
+Aspect Ratio: 55.0
+Diameter: 26.5
+Volume: 578.1988202487246
+Width: 185.0
+Aspect Ratio: 50.0
+Diameter: 14.0
+Volume: 24.000204854910713
