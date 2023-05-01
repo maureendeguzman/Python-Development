@@ -12,9 +12,7 @@ aspect_ratio = float(text2)
 text3 = (input("Enter the diameter of the wheel in inches (ex 15): "))
 diameter = float(text3)
 # calculate tire volume in liters
-pi = 3.14159
-height = (width * aspect_ratio / 100) / 2.80
-volume = pi * (height ** 2) * (diameter / 2) * 0.001
+volume = (math.pi*width**2*aspect_ratio*(width*aspect_ratio+ 2540*diameter))/10000000000
 
 # Open the file for appending text
 with open("volumes.txt", "a") as file:

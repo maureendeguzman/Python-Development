@@ -50,4 +50,4 @@ Width: 185.0
 Aspect Ratio: 50.0
 Diameter: 14.0
 Volume: 24.000204854910713
-Width: 185.0Aspect Ratio: 50.0Diameter: 14.0Volume: 24.000204854910713
+Width: 185.0Aspect Ratio: 50.0Diameter: 14.0Volume: 24.000204854910713Width: 185.0Aspect Ratio: 50.0Diameter: 14.0Volume: 24.090081969909246
