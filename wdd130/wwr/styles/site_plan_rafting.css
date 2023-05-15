@@ -32,7 +32,7 @@ Fonts are separated by a & */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
-  max-width: 1600px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 4em;
   font-size: 1.5em;
@@ -42,10 +42,6 @@ img {
   display: block;
   margin: 0 auto;
   width: 80%;
-}
-#content {
-  width: 100%;
-  margin: 0 auto;
 }
 p {
   width: 80%;
@@ -59,7 +55,7 @@ h2 {
 }
 hr {
   height: 3px;
-  margin: 0 auto;
+  margin: 35px 0;
   background: var(--accent1-color);
 }
 header {
@@ -87,16 +83,7 @@ p {
 }
 .colors td{
   width: 25%;
-  height: 725px;
-}
-body {
-  background-color: #fcfbfb; 
-}
-header {
-  background-color:rgba(20,30,13, .7);
-}
-nav a:hover {
-  background-color: black;
+  height: 3em;
 }
 .primary {
   background-color: var(--primary-color);
@@ -122,7 +109,7 @@ nav {
 }
 nav  {
   list-style-type: none;
-  display: contents;
+  display: flex;
 }
 nav a {
   padding:1em;
@@ -130,10 +117,6 @@ nav a {
   text-decoration: none;
   padding: 10px;
 }
-nav a:hover {
-  background-color: black;
-  color: #d9c2a3;
-}    
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
@@ -183,66 +166,4 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
-}
-.icon {
-  width: 80px;
-}
-.logo {
-  width: 80px;
-  height: auto;
-  text-align: left;
-}
-footer p {
-  font-size: 1.2em;
-}   
-footer p a:hover {
-  text-decoration: underline;
-}    
-.social {
-  width: 80px;
-}
-body {
-  background-color: #f0f0f0; /* replace with your desired color value */
-}
-header {
-  background-color: #333; /* replace with your desired color value */
-}
-nav:hover {
-  background-color: #555; /* replace with your desired color value */
-}
-button {
-  background-color: #0077cc; /* replace with your desired color value */
-}
-div {
-  background-color: #fff; /* replace with your desired color value */
-}
-footer {
-  background-color: #333; /* replace with your desired color value */
-}
-a {
-  color: #0077cc; /* replace with your desired color value */
-}
-h1 {
-  color: #333; /* replace with your desired color value */
-}
-button {
-  color: #fff; /* replace with your desired color value */
-}
-p {
-  color: #333; /* replace with your desired color value */
-}
-.logo, .icon {
-  width: 80px;
-}
-img#logo {
-  width: 80px;
-}
-div.icon {
-  width: 80px;
-}
-a {
-  text-decoration: none;
-}
-nav a {
-  text-decoration: none;
 }
