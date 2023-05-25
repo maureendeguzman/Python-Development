@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair&family=Purple+Purse&family=Slabo+27px&display=swap');
+.home-grid{
+    max-width: 1600;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row: 1fr;
+}
+h1 {
+   grid-column: 2/4;
+   grid-row: 1;
+   z-index: 1;
+   font-size: 6em;
+   font-family: "Purple Purse", "Slabo 27px";
+   align-self:baseline;
+   padding-left: 70px;
+   letter-spacing: 10px;
+}
+p {
+    grid-column: 3;
+    grid-row: 1;
+    font-family: "Purple Purse", "Slabo 27px"; 
+    font-size: 3em;
+    color: maroon; 
+    z-index: 1;
+    align-self: flex-end;
+    padding: 50px;
+    letter-spacing: 20px;
+    
+}
+#hero {
+    grid-column: 2;
+    grid-row: 1;
+    width: 500px;
+    height: 500px;
+}
+#img{
+    grid-column: 3;
+    grid-row: 1;
+    width: 500px;
+    height: 500px;
+}
+
