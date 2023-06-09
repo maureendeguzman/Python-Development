@@ -70,7 +70,7 @@ header > h1, header > h2 {
 p {
   font-family: Open+Sans;
   color: var(--paragraph-color-on-white);
-  text-align: center;
+  padding: 1em;
 }
 .colors {
   width: 100%;
