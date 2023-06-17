@@ -224,11 +224,13 @@ nav a {
   padding-bottom: 25px;
 } 
 footer p {
-  display: grid;
+  display: inline;
   column-gap: 5px;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 5px;
-
+  padding-top: 20px;
+  padding-bottom: 20px ;
+  text-align:start;
 }
 footer p a:hover {
   text-decoration:dotted;
@@ -247,7 +249,7 @@ footer p a:hover {
   text-decoration: none;
   font-size: 18px;
   padding: 15px 30px;
-  margin-top: px;
+  margin-top: 10px;
   border-radius: 5px;
   font-family: sans-serif;
 }
@@ -353,9 +355,10 @@ nav {
 }
 footer {
   background-color: #6f7364;
-  padding: 25px 25px;
-  margin-top: 200px;
-  display:flex;
+  width: 100%;
+  padding: 10px 10px;
+  margin-top: 50px;
+  display: inline-block;
   justify-content:space-around;
   align-items: center;
   box-shadow: 5px 5px 10px #6f7364;
@@ -424,4 +427,89 @@ footer {
   footer {
       margin-top: 25px;
   }
+}
+body {
+  max-width: 960px;
+}
+#hero-img1 {
+  display: block;
+  height: auto;
+  margin-bottom: 50px;
+}
+.card-img {
+  border: 10px solid rgb(217, 194, 163);
+  transition: transform 0.5s ease 0s;
+  box-shadow: rgb(111, 115, 100) 5px 5px 10px;
+}
+.home-grid15 {
+  display: grid;
+  grid-template-columns: repeat(8,100px);
+  justify-items: center;
+  justify-content: center;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+.kayak-card {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  width: 150px;
+  height: 150px;
+  border: #ffff;
+  z-index: 4;
+  float: left;
+}
+.rafting-card {
+  grid-column: 6/7;
+  grid-row: 1/2;
+  width: 150px;
+  height: 150px;
+  border: #ffff;
+  z-index: 4;
+  float: left;
+}
+.msg1 {
+  width: 100%;
+  height: 100% ;
+    grid-column: 3/5;
+    grid-row: 2;
+  background-color: #6f7364;
+  margin-bottom: 50px;
+
+}
+.msg2 {
+  width: 100%;
+  height: 100%;
+    grid-column: 6/8;
+    grid-row: 2;
+  background-color: #6f7364;
+  align-content: space-evenly;
+  margin-bottom: 50px;
+  object-fit: cover;
+  
+}
+.paddle-card {
+  grid-column: 3;
+  grid-row: 4/5;
+  width: 200px;
+  height: 200px;
+  border: #ffff;
+}
+.rapids-card1 {
+  grid-column: 5;
+  grid-row: 4/5;
+  width: 200px;
+  height: 200px;
+  border: #ffff;
+}
+.canal-card {
+  grid-column: 7;
+  grid-row: 4/5;
+  width: 200px;
+  height: 200px;
+  border: #ffff;
+}
+footer {
+  display: flex;
+  grid-column: 1/8;
+  grid-row: 5;
 }
