@@ -65,7 +65,7 @@ header > h1, header > h2 {
 }
 
 p {
-  font-family: Open+Sans, Open+Arial, Helvetica, sans-serif;
+  font-family: Handlee, Open+Arial, Helvetica, sans-serif;
   color: var(--paragraph-color-on-white);
   padding: 1em;
 }
